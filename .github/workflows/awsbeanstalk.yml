@@ -28,7 +28,7 @@ jobs:
       run: zip -r deploy.zip * -x "**node_modules**"
       
     # Despliegue mediante la acción 'Beanstalk deploy' (https://github.com/marketplace/actions/beanstalk-deploy)
-    - name: Despliegue en AWS Beanstalk
+    - name: Despliegue en  AWS Beanstalk
       uses: einaregilsson/beanstalk-deploy@v21
       with:
         # AWS Access Key
